@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+#home{
+    background-color:#1D3557;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 0px 8px 8px;
+    line-height: 25px;
+    margin-top:-1.75%;
+}
+#home .homecontainertext{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 35px;
+    
+}
+#home .homebuttons button{
+    margin-top: 2%;
+    margin-left: 8%;
+    border-radius:5px;
+    border: 18px solid rgb(144, 6, 89);;
+    display: inline;
+    background-color: rgb(144, 6, 89);;
+    align-items: center;
+    color: #fff;
+    font-style: bold;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 3px 3px 2px rgb(81, 78, 78);
+}
+#home .homecontainer .homebuttons button:hover{
+    cursor: pointer;
+    border-color: white;
+    background-color: white;
+    color: rgb(144, 6, 89);;
+    
+}
+
+#home .homecontainer .homecontainertext span{
+    color: rgb(144, 6, 89);;
+}
+#home .circle span{
+    background-color: #457b98;
+    height: 300px;
+    width: 300px;
+    display: block;
+    position: absolute;
+    border-radius:50%;
+    margin-left: 60%;
+   box-shadow:1px 5px 50px -25px rgb(144, 6, 89);;
+}
+#home .homecontainerfinaltext {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;;
+    margin-top: 5%;
+    line-height: 5%;
+    margin-left: 5%;
+}
